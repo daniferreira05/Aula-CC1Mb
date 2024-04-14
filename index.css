@@ -6,8 +6,6 @@ body {
 
 }
 
-
-
 header {
     background-color: #df8cdc;
     color: #111010;
@@ -153,8 +151,6 @@ img {
 }
 
 
-
-
 .footer .copy {
     color: white;
 
@@ -166,8 +162,7 @@ footer {
     width: auto;
     padding: 10px;
     background-color: rgb(61, 60, 60);
-    height: 30px;
+    height: 50px;
     text-align: center;
-
 
 }
