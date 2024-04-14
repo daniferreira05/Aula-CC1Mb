@@ -1,5 +1,5 @@
 body {
-    background-color: #e061d6;
+    background-color:rgb(156, 110, 179);
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
@@ -7,7 +7,8 @@ body {
 }
 
 header {
-    background-color: #df8cdc;
+    
+    background-color:rgb(127, 74, 177);
     color: #111010;
     padding: 15px;
     display: flex;
@@ -153,6 +154,9 @@ img {
 
 .footer .copy {
     color: white;
+    display:flow-root;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -162,7 +166,9 @@ footer {
     width: auto;
     padding: 10px;
     background-color: rgb(61, 60, 60);
-    height: 50px;
+    height: 100px;
     text-align: center;
-
+    display:flow-root;
+    justify-content: center;
+    align-items: center;
 }
