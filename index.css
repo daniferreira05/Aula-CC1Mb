@@ -1,3 +1,4 @@
+
 body {
     background-color:rgb(156, 110, 179);
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -19,7 +20,6 @@ header {
 
 img {
     border-radius: 50%;
-    font-size: 50px;
     border: 2px solid rgba(116, 42, 116, 0.363);
     width: 200px;
     height: 200px;
@@ -137,9 +137,13 @@ img {
 
 
 .s-table {
+    left: 70px;
+    top: 80px;
     width: 50%;
     margin:  auto;
     border-collapse: collapse;
+    display:flow-root;
+    
    
 }
 
@@ -152,8 +156,11 @@ img {
 }
 
 
-.footer .copy {
+ .copy {
+
     color: white;
+    bottom: 0;
+    width: 100%;
     display:flow-root;
     justify-content: center;
     align-items: center;
@@ -161,12 +168,14 @@ img {
 }
 
 footer {
+
     position: relative;
     bottom: 0;
     width: auto;
-    padding: 10px;
+    height: auto;
+
     background-color: rgb(61, 60, 60);
-    height: 100px;
+    
     text-align: center;
     display:flow-root;
     justify-content: center;
