@@ -1,5 +1,6 @@
 
 body {
+    
     background-color:rgb(156, 110, 179);
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
@@ -7,10 +8,25 @@ body {
 
 }
 
+body{
+    background-image: url('body.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+header{
+    image-orientation: from-image;
+    background-image: url('header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
 header {
     
     background-color:rgb(127, 74, 177);
-    color: #111010;
+    color:rgb(150, 99, 150);
     padding: 15px;
     display: flex;
     justify-content: space-between;
@@ -58,14 +74,14 @@ img {
 }
 
 .social a:hover {
-    box-shadow: inset 0 0 20px rgba(53, 17, 53, 0.986), 0 0 20px rgba(0, 0, 0, 0.8);
+    box-shadow: inset 0 0 20px rgba(77, 37, 77, 0.986), 0 0 20px rgb(94, 93, 93);
 }
 
 .about {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 6% 4%;
+    padding:6% 12%;
     gap: 10em;
 
 }
@@ -78,7 +94,7 @@ img {
 
 .about-content h3 {
     font-size: 32px;
-    color: white;
+    color: rgb(224, 219, 219);
 }
 
 .about-content p {
@@ -90,7 +106,7 @@ img {
 .portifolio {
     justify-content: center;
     align-items: center;
-    padding: 4% 4%;
+    padding:2% 12%;
     gap: 10em;
 }
 
@@ -103,7 +119,7 @@ img {
 .educação,
 .pontos {
     font-size: 52px;
-    color: rgb(26, 24, 24);
+    color: rgb(218, 213, 213);
 }
 
 .educação h3,
@@ -131,12 +147,13 @@ img {
     display:flow-root;
     justify-content: center;
     align-items: center;
-    padding: 4% 4%;
+    padding:2% 12%;
     gap: 10em;
 }
 
 
 .s-table {
+    background-color: rgb(103, 82, 119);
     left: 70px;
     top: 80px;
     width: 50%;
