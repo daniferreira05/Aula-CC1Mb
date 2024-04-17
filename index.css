@@ -1,33 +1,31 @@
-
 body {
-    
-    background-color:rgb(156, 110, 179);
+    background-color: rgb(156, 110, 179);
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
 
 }
 
-body{
+body {
     background-image: url('body.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: multiply;
-}
-
-header{
-    image-orientation: from-image;
-    background-image: url('header.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: multiply;
+    background-blend-mode:multiply;
 }
 
 header {
-    
-    background-color:rgb(127, 74, 177);
-    color:rgb(150, 99, 150);
-    padding: 15px;
+    background-color:rgb(94, 58, 128);
+    background-image: url('header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:multiply;
+
+}
+
+header {
+   image-orientation: from-image;
+    color: rgb(136, 90, 136);
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,19 +52,20 @@ img {
 
 .social {
     justify-content: space-between;
-    align-items: center;
+    align-items:center;
     padding-bottom: 50px;
     color: white;
 }
 
 .social a {
     display: flex;
+    align-items: center;
     width: 50px;
     height: 50px;
     line-height: 50px;
     border-radius: 100%;
     font-size: 50px;
-    color: white;
+    color:white;
     margin: 0 auto;
     transition: all 0.5s ease;
     text-decoration: none;
@@ -74,20 +73,20 @@ img {
 }
 
 .social a:hover {
-    box-shadow: inset 0 0 20px rgba(77, 37, 77, 0.986), 0 0 20px rgb(94, 93, 93);
+    box-shadow: inset 0 0 20px rgba(124, 59, 124, 0.986), 0 0 20px rgb(206, 87, 206);
 }
 
 .about {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:6% 12%;
+    padding: 6% 12%;
     gap: 10em;
 
 }
 
 .about-content h2 {
-    text-align:center;
+    text-align: center;
     color: black;
     font-size: 42px;
 }
@@ -103,10 +102,10 @@ img {
     margin: 1em 0 2em;
 }
 
-.portifolio {
+.portfolio {
     justify-content: center;
     align-items: center;
-    padding:2% 12%;
+    padding: 2% 12%;
     gap: 10em;
 }
 
@@ -138,47 +137,47 @@ img {
 }
 
 .meus-contatos {
-    text-align:center;
+    text-align: center;
     color: black;
     font-size: 42px;
 }
 
 .contatos {
-    display:flow-root;
+    display: flow-root;
     justify-content: center;
     align-items: center;
-    padding:2% 12%;
+    padding: 2% 12%;
     gap: 10em;
 }
 
 
 .s-table {
+    border-color: black;
     background-color: rgb(103, 82, 119);
     left: 70px;
     top: 80px;
     width: 50%;
-    margin:  auto;
+    margin: auto;
     border-collapse: collapse;
-    display:flow-root;
-    
-   
+    display: flow-root;
+
+
 }
 
 .s-table th,
-.s-table td{
+.s-table td {
     padding: 10px;
     border-bottom: 1px solid rgb(0, 0, 0);
-    text-align:center;
-    
+    text-align: center;
+
 }
 
 
- .copy {
-
+.copy {
     color: white;
     bottom: 0;
     width: 100%;
-    display:flow-root;
+    display: flow-root;
     justify-content: center;
     align-items: center;
 
@@ -190,11 +189,9 @@ footer {
     bottom: 0;
     width: auto;
     height: auto;
-
-    background-color: rgb(61, 60, 60);
-    
+    background-color: rgb(26, 25, 25);
     text-align: center;
-    display:flow-root;
+    display: flow-root;
     justify-content: center;
     align-items: center;
 }
