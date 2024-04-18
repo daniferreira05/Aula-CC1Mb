@@ -87,7 +87,7 @@ img {
 
 .about-content h2 {
     text-align: center;
-    color: black;
+    color: rgb(136, 90, 136);
     font-size: 42px;
 }
 
@@ -111,9 +111,11 @@ img {
 
 .title {
     text-align: center;
-    color: black;
+    color:rgb(136, 90, 136);
     font-size: 42px;
 }
+
+
 
 .educação,
 .pontos {
@@ -138,7 +140,7 @@ img {
 
 .meus-contatos {
     text-align: center;
-    color: black;
+    color: rgb(136, 90, 136);
     font-size: 42px;
 }
 
