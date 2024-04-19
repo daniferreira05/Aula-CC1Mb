@@ -117,19 +117,24 @@ img {
 
 .educação,
 .pontos {
-    font-size: 52px;
+   
     color: rgb(218, 213, 213);
 }
 
 .educação h3,
 .pontos h4 {
     display: inline-flex;
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.educação p,
+.educação p{
+    color: white;
+    font-size: 20px;
+    margin: 1em 0 2em;
+}
+
 .pontos p {
     color: white;
     font-size: 20px;
